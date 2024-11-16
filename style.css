@@ -1,0 +1,77 @@
+body {
+  width: 1440px;
+  height: 800px;
+  background-color: #d5e1ef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.First {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 497px;
+  border-radius: 20px;
+}
+.Second {
+  width: 288px;
+  height: 288px;
+  background-color: #2c7dfa;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+}
+.circle {
+  width: 195px; /* Размер равен половине ширины/высоты родителя */
+  height: 165px;
+  background-color: #3685FF; /* Цвет четверти круга */
+  border-radius: 10px 0 100px 0; /* Делает угол круглым */
+  position: absolute; /* Позволяет разместить в нужной позиции */
+  top: 0; /* Прижимаем к верхнему краю */
+  left: 0; /* Прижимаем к левому краю */
+  z-index: 0;
+}
+.circle2 {
+  width: 150px; /* Размер равен половине ширины/высоты родителя */
+  height: 90px;
+  background-color: #3685FF; /* Цвет четверти круга */
+  border-radius: 100% 0 10px 0%; /* Делает угол круглым */
+  position: absolute; /* Позволяет разместить в нужной позиции */
+  bottom: 0; /* Прижимаем к верхнему краю */
+  right: 0; /* Прижимаем к левому краю */
+  z-index: 0;
+}
+#First {
+  font-size: 22px;
+  font-family: calibri;
+  font-weight: 700;
+  height: 56px;
+  width: 288px;
+  line-height: 27.72px;
+  margin-bottom: 0;
+  color: #1F314F;
+}
+#Second {
+  font-size: 15px;
+  font-family: calibri;
+  font-weight: 400;
+  height: 57px;
+  width: 256px;
+  line-height: 18.9px;
+  letter-spacing: 0.19px;
+  color: #7D889E;
+}
