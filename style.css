@@ -36,23 +36,23 @@ body {
   margin: 0;
 }
 .circle {
-  width: 195px; /* Размер равен половине ширины/высоты родителя */
+  width: 195px;
   height: 165px;
-  background-color: #3685FF; /* Цвет четверти круга */
-  border-radius: 10px 0 100px 0; /* Делает угол круглым */
-  position: absolute; /* Позволяет разместить в нужной позиции */
-  top: 0; /* Прижимаем к верхнему краю */
-  left: 0; /* Прижимаем к левому краю */
+  background-color: #3685FF;
+  border-radius: 10px 0 100px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
   z-index: 0;
 }
 .circle2 {
-  width: 150px; /* Размер равен половине ширины/высоты родителя */
+  width: 150px;
   height: 90px;
-  background-color: #3685FF; /* Цвет четверти круга */
-  border-radius: 100% 0 10px 0%; /* Делает угол круглым */
-  position: absolute; /* Позволяет разместить в нужной позиции */
-  bottom: 0; /* Прижимаем к верхнему краю */
-  right: 0; /* Прижимаем к левому краю */
+  background-color: #3685FF;
+  border-radius: 100% 0 10px 0%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
   z-index: 0;
 }
 #First {
